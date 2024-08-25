@@ -38,6 +38,10 @@ EU-funded project—road traffic noise modelling
 
 [Github Repo - Monthly](https://github.com/co822ee/expanse_multiyear/)
 
+[Visualization dashboard - Annual](https://youchenshenuu.users.earthengine.app/view/expanse-air-pollution-20-yr-maps)
+
+[Visualization dashboard - Monthly](https://youchenshenuu.users.earthengine.app/view/expanse-monthly-average-air-pollution-maps)
+
 Used **R & Google Earth Engine (Javascript)** to train three machine learning algorithms were used (**Random Forests**, **Geographically Weighted Regression**, **Supervised Linear Regression**) which estimated particulate matter, nitrogen dioxide, and ozone concentrations based on over 250 geospatial variables and 20k monitoring observations across Europe over 20 years. We found that using spatially-varying linear regression model structures would give high predictive accuracy than nonlinear regression and spatially-fixed linear regression. The resulting air quality maps allow us to disentangle key interactions between the environment and human health.
 
 ![Air quality maps](/assets/img/air-quality-maps.jpg)
@@ -51,6 +55,15 @@ Used **R & Google Earth Engine (Javascript)** to train three machine learning al
 Used **R & Google Earth Engine (Javascript)** to develop **Random Forests** which estimated road traffic flow based on over 250 geospatial variables. We found regression variables can be used to accurately estimate on-road vehicle numbers at large spatial scales with high accuracy (r2 > 0.7) and that smaller particles are better estimated than larger ones. Inferring environmental conditions solely from biometric measurements allows us to disentangle key interactions between the environment and the body.
 
 ![Bike Study](/assets/img/AtmosphericEnvironment-toc.jpg)
+
+### Europe-wide road traffic noise modelling
+
+Used **R & PostgreSQL** to estimate road traffic noise using a physically-based noise model (CNOSSOS-EU) at millions of points across Europe. I created an automated data pipeline for parallel computing on Dutch national supercomputer (Snellius) on Linux.
+
+![Noise map](/assets/img/noise-utrecht.jpg)
+
+_Noise level estimates in the city center of Utrecht_
+
 
 ## Publications
 1. Shen, Y., de Hoogh, K., Schmitz, O., Clinton, N., Tuxen-Bettman, K., Brandt, J., Christensen, J.H., Frohn, L.M., Geels, C., Karssenberg, D., Vermeulen, R., Hoek, G., 2022a. Europe-wide air pollution modeling from 2000 to 2019 using geographically weighted regression. Environ. Int. 168, 107485. [https://doi.org/10.1016/j.envint.2022.107485](https://doi.org/10.1016/j.envint.2022.107485)
