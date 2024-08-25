@@ -1,14 +1,23 @@
 # Data Scientist/Analyst
 
+> I value self-learning with growth mindset and maintaining data integrity, striving to make a meaningful impact through innovative solutions. 
+
 #### Technical Skills: R, Python, SQL, Google Earth Engine (Javascript), Google Cloud Platform, Google BigQuery, Arcpy, ArcGIS, QGIS
 
 ## Education
+
+---
+
 - Ph.D., Environmental Health  | Utrecht University | _Sept 2020-Present_
 - M.S., Earth Sciences	| Utrecht University | _Sept 2018-Jul 2020_
 - B.S., Environmental & Agriculture Engineering | National Taiwan University | _Sept 2014-Jun 2018_
 
 ## Work Experience
+
+---
+
 **Data Scientist/Analyst (Road traffic) @ Utrecht University (_Mar 2023  - Present_)**
+
 EU-funded project—road traffic noise modelling
 - Analyze and visualize geospatial large data to uncover key insights using PostgreSQL and R, resulting in a 4% increase in road traffic modelling, contributing to urban environmental sustainability and decision-making for 5+ EU institutions
 - Collaborate with 14 researchers from cross-functional teams, ranging from epidemiologists, model developers, software engineers, stakeholders, and statisticians
@@ -16,6 +25,7 @@ EU-funded project—road traffic noise modelling
 
 
 **Data Scientist/Analyst (Air quality) @ Utrecht University (_December 2020 - Present_)**
+
 -	Publish 3 peer-reviewed papers as first author with 36 citations, creating societal impact through developing data dashboards for visualizing [annual](https://youchenshenuu.users.earthengine.app/view/expanse-air-pollution-20-yr-maps) and [monthly](https://youchenshenuu.users.earthengine.app/view/expanse-monthly-average-air-pollution-maps) geospatial maps – data featured in [Guardian news](https://www.theguardian.com/environment/2023/sep/20/revealed-almost-everyone-in-europe-breathing-toxic-air)
 -	Collaborate with 12 cross-functional researchers, ranging from software developer, 
 -	Wrangled and processed 1 TB Waze traffic jam data using BigQuery on Google Cloud Platform and created visualization with Looker Studio to make data-driven decisions with stakeholders
@@ -26,9 +36,13 @@ EU-funded project—road traffic noise modelling
 -	Share data insights with colleagues, resulting in 4 peer-reviewed papers (and 3 other papers in preparation)
 
 **Research Assistant @ Utrecht University (_Dec 2018 — Jun 2019_)**
+
 -	Quantified and analyzed dynamics in mangrove in Suriname to develop sustainable coastal protection methods and to enhance biodiversity, communicating results in a peer-reviewed paper
 
 ## Projects
+
+---
+
 ### 1. Europe-wide air quality modelling from 2000 to 2019 at a 25mx25m resolution
 [Publication - Annual](https://www.sciencedirect.com/science/article/pii/S0160412022004123)
 
@@ -71,6 +85,9 @@ _Noise level estimates (in dBA) in the city center of Utrecht_
 
 
 ## Publications
+
+---
+
 1. Shen, Y., de Hoogh, K., Schmitz, O., Clinton, N., Tuxen-Bettman, K., Brandt, J., Christensen, J.H., Frohn, L.M., Geels, C., Karssenberg, D., Vermeulen, R., Hoek, G., 2022a. Europe-wide air pollution modeling from 2000 to 2019 using geographically weighted regression. Environ. Int. 168, 107485. [https://doi.org/10.1016/j.envint.2022.107485](https://doi.org/10.1016/j.envint.2022.107485)
 2. Shen, Y., de Hoogh, K., Schmitz, O., Gulliver, J., Vienneau, D., Vermeulen, R., Hoek, G., Karssenberg, D., 2024b. Europe-wide high-spatial resolution air pollution models are improved by including traffic flow estimates on all roads. Atmos. Environ. 335, 120719. [https://doi.org/10.1016/J.ATMOSENV.2024.120719](https://doi.org/10.1016/J.ATMOSENV.2024.120719)
 3. Shen, Y., Ruijsch, J., Lu, M., Sutanudjaja, E.H., Karssenberg, D., 2022b. Random forests-based error-correction of streamflow from a large-scale hydrological model: Using model state variables to estimate error terms. Comput. Geosci. 159, 105019. [https://doi.org/10.1016/j.cageo.2021.105019](https://doi.org/10.1016/j.cageo.2021.105019)
@@ -79,4 +96,5 @@ _Noise level estimates (in dBA) in the city center of Utrecht_
 6. de Jong, S.M., Shen, Y., de Vries, J., Bijnaar, G., van Maanen, B., Augustinus, P., Verweij, P., 2021. Mapping mangrove dynamics and colonization patterns at the Suriname coast using historic satellite data and the LandTrendr algorithm. Int. J. Appl. Earth Obs. Geoinf. 97, 102293. [https://doi.org/10.1016/j.jag.2020.102293](https://doi.org/10.1016/j.jag.2020.102293)
 7. Magni, M., Sutanudjaja, E.H., Shen, Y., Karssenberg, D., 2023. Global streamflow modelling using process-informed machine learning. J. Hydroinformatics 25, 1648–1666. [https://doi.org/10.2166/HYDRO.2023.217](https://doi.org/10.2166/HYDRO.2023.217)
 
-View all publications on [Google Scholar](https://scholar.google.com/citations?user=0zgXCWwAAAAJ&hl=en)
+
+_View all publications on [Google Scholar](https://scholar.google.com/citations?user=0zgXCWwAAAAJ&hl=en)_
