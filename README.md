@@ -1,20 +1,16 @@
 # Data Scientist/Analyst
 
-> I value self-learning with growth mindset and maintaining data integrity, striving to make a meaningful impact through innovative solutions. 
+> With over 4 years of experience in using data to solve problems. I am passionate about collaborating with diverse teams to drive data-driven decisions and creating appealing data visualizations. I value self-learning with growth mindset and maintaining data integrity, striving to make a meaningful impact through innovative solutions. 
 
 #### Technical Skills: R, Python, SQL, Google Earth Engine (Javascript), Google Cloud Platform, Google BigQuery, Arcpy, ArcGIS, QGIS
 
 ## Education
-
----
 
 - Ph.D., Environmental Health  | Utrecht University | _Sept 2020-Present_
 - M.S., Earth Sciences	| Utrecht University | _Sept 2018-Jul 2020_
 - B.S., Environmental & Agriculture Engineering | National Taiwan University | _Sept 2014-Jun 2018_
 
 ## Work Experience
-
----
 
 **Data Scientist/Analyst (Road traffic) @ Utrecht University (_Mar 2023  - Present_)**
 
@@ -40,8 +36,6 @@ EU-funded project—road traffic noise modelling
 -	Quantified and analyzed dynamics in mangrove in Suriname to develop sustainable coastal protection methods and to enhance biodiversity, communicating results in a peer-reviewed paper
 
 ## Projects
-
----
 
 ### 1. Europe-wide air quality modelling from 2000 to 2019 at a 25mx25m resolution
 [Publication - Annual](https://www.sciencedirect.com/science/article/pii/S0160412022004123)
@@ -85,8 +79,6 @@ _Noise level estimates (in dBA) in the city center of Utrecht_
 
 
 ## Publications
-
----
 
 1. Shen, Y., de Hoogh, K., Schmitz, O., Clinton, N., Tuxen-Bettman, K., Brandt, J., Christensen, J.H., Frohn, L.M., Geels, C., Karssenberg, D., Vermeulen, R., Hoek, G., 2022a. Europe-wide air pollution modeling from 2000 to 2019 using geographically weighted regression. Environ. Int. 168, 107485. [https://doi.org/10.1016/j.envint.2022.107485](https://doi.org/10.1016/j.envint.2022.107485)
 2. Shen, Y., de Hoogh, K., Schmitz, O., Gulliver, J., Vienneau, D., Vermeulen, R., Hoek, G., Karssenberg, D., 2024b. Europe-wide high-spatial resolution air pollution models are improved by including traffic flow estimates on all roads. Atmos. Environ. 335, 120719. [https://doi.org/10.1016/J.ATMOSENV.2024.120719](https://doi.org/10.1016/J.ATMOSENV.2024.120719)
