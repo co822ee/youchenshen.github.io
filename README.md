@@ -1,21 +1,21 @@
-# Data Scientist
+# Data Scientist/Analyst
 
-#### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
+#### Technical Skills: R, Python, SQL, Google Earth Engine (Javascript), Google Cloud Platform, Google BigQuery, Arcpy, ArcGIS, QGIS
 
 ## Education
-- Ph.D., Toxicology & Environmental Health  | Utrecht University (_Sept 2020-Present_)								       		
-- M.S., Earth Sciences	| Utrecht University (_Sept 2018-Jul 2020_)	 			        		
-- B.S., Environmental & Agriculture Engineering | National Taiwan University (_Sept 2014-Jun 2018_)
+- Ph.D., Toxicology & Environmental Health  | Utrecht University | _Sept 2020-Present_
+- M.S., Earth Sciences	| Utrecht University | _Sept 2018-Jul 2020_
+- B.S., Environmental & Agriculture Engineering | National Taiwan University | _Sept 2014-Jun 2018_
 
 ## Work Experience
-**Data Analyst (Road traffic) @ Utrecht University (_Mar 2023  - Present_)**
+**Data Scientist/Analyst (Road traffic) @ Utrecht University (_Mar 2023  - Present_)**
 EU-funded project—road traffic noise modelling
 - Analyze and visualize geospatial large data to uncover key insights using PostgreSQL and R, resulting in a 4% increase in road traffic modelling, contributing to urban environmental sustainability and decision-making for 5+ EU institutions
 - Collaborate with 14 researchers from cross-functional teams, ranging from epidemiologists, model developers, software engineers, stakeholders, and statisticians
 
 
 
-**Data Analyst (Air quality) @ Utrecht University (_December 2020 - Present_)**
+**Data Scientist/Analyst (Air quality) @ Utrecht University (_December 2020 - Present_)**
 -	Publish 3 peer-reviewed papers as first author with 36 citations, creating societal impact through developing data dashboards for visualizing [annual](https://youchenshenuu.users.earthengine.app/view/expanse-air-pollution-20-yr-maps) and [monthly](https://youchenshenuu.users.earthengine.app/view/expanse-monthly-average-air-pollution-maps) geospatial maps – data featured in [Guardian news](https://www.theguardian.com/environment/2023/sep/20/revealed-almost-everyone-in-europe-breathing-toxic-air)
 -	Collaborate with 12 cross-functional researchers, ranging from software developer, 
 -	Wrangled and processed 1 TB Waze traffic jam data using BigQuery on Google Cloud Platform and created visualization with Looker Studio to make data-driven decisions with stakeholders
@@ -29,14 +29,14 @@ EU-funded project—road traffic noise modelling
 -	Quantified and analyzed dynamics in mangrove in Suriname to develop sustainable coastal protection methods and to enhance biodiversity, communicating results in a peer-reviewed paper
 
 ## Projects
-### Europe-wide air quality modelling from at a 25mx25m resolution
-[Publication - annual](https://www.sciencedirect.com/science/article/pii/S0160412022004123#f0010)
+### Europe-wide air quality modelling from 2000 to 2019 at a 25mx25m resolution
+[Publication - Annual](https://www.sciencedirect.com/science/article/pii/S0160412022004123)
 
-[Publication - monthly](https://www.sciencedirect.com/science/article/pii/S0048969724006879)
+[Publication - Monthly](https://www.sciencedirect.com/science/article/pii/S0048969724006879)
 
-[Github Repo - annual](https://github.com/co822ee/EXPANSE_algorithm)
+[Github Repo - Annual](https://github.com/co822ee/EXPANSE_algorithm)
 
-[Github Repo - monthly](https://github.com/co822ee/expanse_multiyear/)
+[Github Repo - Monthly](https://github.com/co822ee/expanse_multiyear/)
 
 Used **R & Google Earth Engine (Javascript)** to train three machine learning algorithms were used (**Random Forests**, **Geographically Weighted Regression**, **Supervised Linear Regression**) which estimated particulate matter, nitrogen dioxide, and ozone concentrations based on over 250 geospatial variables and 20k monitoring observations across Europe over 20 years. We found that using spatially-varying linear regression model structures would give high predictive accuracy than nonlinear regression and spatially-fixed linear regression. The resulting air quality maps allow us to disentangle key interactions between the environment and human health.
 
