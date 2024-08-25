@@ -29,7 +29,7 @@ EU-funded project—road traffic noise modelling
 -	Quantified and analyzed dynamics in mangrove in Suriname to develop sustainable coastal protection methods and to enhance biodiversity, communicating results in a peer-reviewed paper
 
 ## Projects
-### Europe-wide air quality modelling from 2000 to 2019 at a 25mx25m resolution
+### 1. Europe-wide air quality modelling from 2000 to 2019 at a 25mx25m resolution
 [Publication - Annual](https://www.sciencedirect.com/science/article/pii/S0160412022004123)
 
 [Publication - Monthly](https://www.sciencedirect.com/science/article/pii/S0048969724006879)
@@ -48,7 +48,7 @@ Used **R & Google Earth Engine (Javascript)** to train three machine learning al
 
 _Europe-wide annual average ground-level NO2, O3, PM10, and PM2.5 concentrations (µg/m3) estimated by geographically- and temporally-weighted regression in 2000, 2005, 2010,2015, and 2019 (Base map source: Google Maps)_
 
-### Europe-wide high-spatial resolution air quality models are improved by including traffic flow estimates on all roads
+### 2. Europe-wide high-spatial resolution air quality models are improved by including traffic flow estimates on all roads
 
 [Publication](https://www.sciencedirect.com/science/article/pii/S1352231024003947)
 
@@ -60,13 +60,15 @@ Used **R & Google Earth Engine (Javascript)** to develop **Random Forests** whic
 
 _We improved Europe-wide high spatial resolution air quality models using traffic flow estimates on all roads_
 
-### Europe-wide road traffic noise modelling
+### 3. Europe-wide road traffic noise modelling
 
 Used **R & PostgreSQL** to estimate road traffic noise using a physically-based noise model (CNOSSOS-EU) at millions of points across Europe. I created an automated data pipeline for parallel computing on Dutch national supercomputer (Snellius) on Linux.
 
 ![Noise map](/assets/img/noise-utrecht.jpg)
 
-_Noise level estimates in the city center of Utrecht_
+_Noise level estimates (in dBA) in the city center of Utrecht_
+
+
 
 ## Publications
 1. Shen, Y., de Hoogh, K., Schmitz, O., Clinton, N., Tuxen-Bettman, K., Brandt, J., Christensen, J.H., Frohn, L.M., Geels, C., Karssenberg, D., Vermeulen, R., Hoek, G., 2022a. Europe-wide air pollution modeling from 2000 to 2019 using geographically weighted regression. Environ. Int. 168, 107485. [https://doi.org/10.1016/j.envint.2022.107485](https://doi.org/10.1016/j.envint.2022.107485)
@@ -77,4 +79,4 @@ _Noise level estimates in the city center of Utrecht_
 6. de Jong, S.M., Shen, Y., de Vries, J., Bijnaar, G., van Maanen, B., Augustinus, P., Verweij, P., 2021. Mapping mangrove dynamics and colonization patterns at the Suriname coast using historic satellite data and the LandTrendr algorithm. Int. J. Appl. Earth Obs. Geoinf. 97, 102293. [https://doi.org/10.1016/j.jag.2020.102293](https://doi.org/10.1016/j.jag.2020.102293)
 7. Magni, M., Sutanudjaja, E.H., Shen, Y., Karssenberg, D., 2023. Global streamflow modelling using process-informed machine learning. J. Hydroinformatics 25, 1648–1666. [https://doi.org/10.2166/HYDRO.2023.217](https://doi.org/10.2166/HYDRO.2023.217)
 
-
+View all publications on [Google Scholar](https://scholar.google.com/citations?user=0zgXCWwAAAAJ&hl=en)
