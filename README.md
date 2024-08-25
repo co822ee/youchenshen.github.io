@@ -30,30 +30,35 @@ EU-funded project—road traffic noise modelling
 
 ## Projects
 ### Europe-wide air quality modelling from at a 25mx25m resolution
-[Publication 1](https://www.sciencedirect.com/science/article/pii/S0160412022004123#f0010)
-[Publication 2](https://www.sciencedirect.com/science/article/pii/S0048969724006879)
-[Github repo 1](https://github.com/co822ee/EXPANSE_algorithm)
-[Github repo 2](https://github.com/co822ee/expanse_multiyear/)
+[Publication - annual](https://www.sciencedirect.com/science/article/pii/S0160412022004123#f0010)
+
+[Publication - monthly](https://www.sciencedirect.com/science/article/pii/S0048969724006879)
+
+[Github Repo - annual](https://github.com/co822ee/EXPANSE_algorithm)
+
+[Github Repo - monthly](https://github.com/co822ee/expanse_multiyear/)
 
 Used **R & Google Earth Engine (Javascript)** to train three machine learning algorithms were used (**Random Forests**, **Geographically Weighted Regression**, **Supervised Linear Regression**) which estimated particulate matter, nitrogen dioxide, and ozone concentrations based on over 250 geospatial variables and 20k monitoring observations across Europe over 20 years. We found that using spatially-varying linear regression model structures would give high predictive accuracy than nonlinear regression and spatially-fixed linear regression. The resulting air quality maps allow us to disentangle key interactions between the environment and human health.
-
 
 ![Air quality maps](/assets/img/air-quality-maps.jpg)
 
 ### Europe-wide high-spatial resolution air pollution models are improved by including traffic flow estimates on all roads
+
 [Publication](https://www.sciencedirect.com/science/article/pii/S1352231024003947)
+
+[Github Repo](https://github.com/co822ee/eu_roadTraffic)
 
 Used **R & Google Earth Engine (Javascript)** to develop **Random Forests** which estimated road traffic flow based on over 250 geospatial variables. We found regression variables can be used to accurately estimate on-road vehicle numbers at large spatial scales with high accuracy (r2 > 0.7) and that smaller particles are better estimated than larger ones. Inferring environmental conditions solely from biometric measurements allows us to disentangle key interactions between the environment and the body.
 
-![Bike Study](/assets/img/AtmosphericEnvironment-toc.pdf)
+![Bike Study](/assets/img/AtmosphericEnvironment-toc.jpg)
 
 ## Publications
-1. Shen, Y., de Hoogh, K., Schmitz, O., Clinton, N., Tuxen-Bettman, K., Brandt, J., Christensen, J.H., Frohn, L.M., Geels, C., Karssenberg, D., Vermeulen, R., Hoek, G., 2022a. Europe-wide air pollution modeling from 2000 to 2019 using geographically weighted regression. Environ. Int. 168, 107485. https://doi.org/10.1016/j.envint.2022.107485
-2. Shen, Y., de Hoogh, K., Schmitz, O., Gulliver, J., Vienneau, D., Vermeulen, R., Hoek, G., Karssenberg, D., 2024. Estimated road traffic flow across Europe improves air pollution modelling (under review). Atmos. Environ.
-3. Shen, Y., Ruijsch, J., Lu, M., Sutanudjaja, E.H., Karssenberg, D., 2022b. Random forests-based error-correction of streamflow from a large-scale hydrological model: Using model state variables to estimate error terms. Comput. Geosci. 159, 105019. https://doi.org/10.1016/j.cageo.2021.105019
-4. Ndiaye, A., Shen, Y., Kyriakou, K., Karssenberg, D., Schmitz, O., Flückiger, B., Hoogh, K. de, Hoek, G., 2024. Hourly land-use regression modeling for NO2 and PM2.5 in the Netherlands. Environ. Res. 256, 119233. https://doi.org/10.1016/J.ENVRES.2024.119233
-5. Yuan, Z., Kerckhoffs, J., Shen, Y., de Hoogh, K., Hoek, G., Vermeulen, R., 2023. Integrating large-scale stationary and local mobile measurements to estimate hyperlocal long-term air pollution using transfer learning methods. Environ. Res. 228. https://doi.org/10.1016/J.ENVRES.2023.115836
-6. de Jong, S.M., Shen, Y., de Vries, J., Bijnaar, G., van Maanen, B., Augustinus, P., Verweij, P., 2021. Mapping mangrove dynamics and colonization patterns at the Suriname coast using historic satellite data and the LandTrendr algorithm. Int. J. Appl. Earth Obs. Geoinf. 97, 102293. https://doi.org/10.1016/j.jag.2020.102293
-7. Magni, M., Sutanudjaja, E.H., Shen, Y., Karssenberg, D., 2023. Global streamflow modelling using process-informed machine learning. J. Hydroinformatics 25, 1648–1666. https://doi.org/10.2166/HYDRO.2023.217
+1. Shen, Y., de Hoogh, K., Schmitz, O., Clinton, N., Tuxen-Bettman, K., Brandt, J., Christensen, J.H., Frohn, L.M., Geels, C., Karssenberg, D., Vermeulen, R., Hoek, G., 2022a. Europe-wide air pollution modeling from 2000 to 2019 using geographically weighted regression. Environ. Int. 168, 107485. [https://doi.org/10.1016/j.envint.2022.107485](https://doi.org/10.1016/j.envint.2022.107485)
+2. Shen, Y., de Hoogh, K., Schmitz, O., Gulliver, J., Vienneau, D., Vermeulen, R., Hoek, G., Karssenberg, D., 2024b. Europe-wide high-spatial resolution air pollution models are improved by including traffic flow estimates on all roads. Atmos. Environ. 335, 120719. [https://doi.org/10.1016/J.ATMOSENV.2024.120719](https://doi.org/10.1016/J.ATMOSENV.2024.120719)
+3. Shen, Y., Ruijsch, J., Lu, M., Sutanudjaja, E.H., Karssenberg, D., 2022b. Random forests-based error-correction of streamflow from a large-scale hydrological model: Using model state variables to estimate error terms. Comput. Geosci. 159, 105019. [https://doi.org/10.1016/j.cageo.2021.105019](https://doi.org/10.1016/j.cageo.2021.105019)
+4. Ndiaye, A., Shen, Y., Kyriakou, K., Karssenberg, D., Schmitz, O., Flückiger, B., Hoogh, K. de, Hoek, G., 2024. Hourly land-use regression modeling for NO2 and PM2.5 in the Netherlands. Environ. Res. 256, 119233. [https://doi.org/10.1016/J.ENVRES.2024.119233](https://doi.org/10.1016/J.ENVRES.2024.119233)
+5. Yuan, Z., Kerckhoffs, J., Shen, Y., de Hoogh, K., Hoek, G., Vermeulen, R., 2023. Integrating large-scale stationary and local mobile measurements to estimate hyperlocal long-term air pollution using transfer learning methods. Environ. Res. 228. [https://doi.org/10.1016/J.ENVRES.2023.115836](https://doi.org/10.1016/J.ENVRES.2023.115836)
+6. de Jong, S.M., Shen, Y., de Vries, J., Bijnaar, G., van Maanen, B., Augustinus, P., Verweij, P., 2021. Mapping mangrove dynamics and colonization patterns at the Suriname coast using historic satellite data and the LandTrendr algorithm. Int. J. Appl. Earth Obs. Geoinf. 97, 102293. [https://doi.org/10.1016/j.jag.2020.102293](https://doi.org/10.1016/j.jag.2020.102293)
+7. Magni, M., Sutanudjaja, E.H., Shen, Y., Karssenberg, D., 2023. Global streamflow modelling using process-informed machine learning. J. Hydroinformatics 25, 1648–1666. [https://doi.org/10.2166/HYDRO.2023.217](https://doi.org/10.2166/HYDRO.2023.217)
 
 
