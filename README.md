@@ -23,7 +23,7 @@ EU-funded project—road traffic noise modelling
 **Data Scientist/Analyst (Air quality) @ Utrecht University (_December 2020 - Present_)**
 
 -	Publish 3 peer-reviewed papers as first author with 36 citations, creating societal impact through developing data dashboards for visualizing [annual](https://youchenshenuu.users.earthengine.app/view/expanse-air-pollution-20-yr-maps) and [monthly](https://youchenshenuu.users.earthengine.app/view/expanse-monthly-average-air-pollution-maps) geospatial maps – data featured in [Guardian news](https://www.theguardian.com/environment/2023/sep/20/revealed-almost-everyone-in-europe-breathing-toxic-air)
--	Collaborate with 12 cross-functional researchers, ranging from software developer, 
+-	Collaborate with 12 cross-functional researchers, ranging from software developer, environmental epidemiologists, project manager and model developers.
 -	Wrangled and processed 1 TB Waze traffic jam data using BigQuery on Google Cloud Platform and created visualization with Looker Studio to make data-driven decisions with stakeholders
 -	Develop an anomaly detection algorithm that identifies outliers in time-series data with 75%+ validity for modelling purposes
 -	Enhance prediction accuracy by 19% in air quality models, providing actionable insights for stakeholders to promote a sustainable environment
