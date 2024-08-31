@@ -2,7 +2,7 @@
 
 > With over 4 years of experience in using data to solve problems. I am passionate about collaborating with diverse teams to drive data-driven decisions and creating appealing data visualizations. I value self-learning with growth mindset and maintaining data integrity, striving to make a meaningful impact through innovative solutions. 
 
-#### Technical Skills: R, Python, SQL, Google Earth Engine (Javascript), Google Cloud Platform, Google BigQuery, Arcpy, ArcGIS, QGIS
+#### Technical Skills: R, Python, PostgreSQL, Google Earth Engine (Javascript), Google Cloud Platform, Google BigQuery, Arcpy, ArcGIS, QGIS
 
 ## Education
 
@@ -22,6 +22,7 @@ EU-funded project—road traffic noise modelling
 
 **Data Scientist/Analyst (Air quality) @ Utrecht University (_December 2020 - Present_)**
 
+EU-funded project—air quality modelling
 -	Publish 3 peer-reviewed papers as first author with 36 citations, creating societal impact through developing data dashboards for visualizing [annual](https://youchenshenuu.users.earthengine.app/view/expanse-air-pollution-20-yr-maps) and [monthly](https://youchenshenuu.users.earthengine.app/view/expanse-monthly-average-air-pollution-maps) geospatial maps – data featured in [Guardian news](https://www.theguardian.com/environment/2023/sep/20/revealed-almost-everyone-in-europe-breathing-toxic-air)
 -	Collaborate with 12 cross-functional researchers, ranging from software developer, environmental epidemiologists, project manager and model developers.
 -	Wrangled and processed 1 TB Waze traffic jam data using BigQuery on Google Cloud Platform and created visualization with Looker Studio to make data-driven decisions with stakeholders
@@ -50,7 +51,7 @@ EU-funded project—road traffic noise modelling
 
 [Visualization dashboard - Monthly](https://youchenshenuu.users.earthengine.app/view/expanse-monthly-average-air-pollution-maps)
 
-Used **R & Google Earth Engine (Javascript)** to train three machine learning algorithms were used (**Random Forests**, **Geographically Weighted Regression**, **Supervised Linear Regression**) which estimated particulate matter, nitrogen dioxide, and ozone concentrations based on over 250 geospatial variables and 20k monitoring observations across Europe over 20 years. We found that using spatially-varying linear regression model structures would give high predictive accuracy than nonlinear regression and spatially-fixed linear regression. The resulting air quality maps allow us to disentangle key interactions between the environment and human health.
+Used **R & Google Earth Engine (Javascript)** to train three machine learning algorithms (**Random Forests**, **Geographically Weighted Regression**, **Supervised Linear Regression**) which estimated particulate matters, nitrogen dioxide, and ozone concentrations based on over 250 geospatial variables and 20k monitoring observations across Europe over 20 years. We found that using spatially-varying linear regression would give higher predictive accuracy than nonlinear regression and spatially-fixed linear regression. The resulting air quality maps allow us to disentangle key interactions between the environment and human health.
 
 ![Air quality maps](/assets/img/air-quality-maps.jpg)
 
@@ -62,7 +63,7 @@ _Europe-wide annual average ground-level NO2, O3, PM10, and PM2.5 concentrations
 
 [Github Repo](https://github.com/co822ee/eu_roadTraffic)
 
-Used **R & Google Earth Engine (Javascript)** to develop **Random Forests** which estimated road traffic flow based on over 250 geospatial variables. We found regression variables can be used to accurately estimate on-road vehicle numbers at large spatial scales with high accuracy (r2 > 0.7) and that smaller particles are better estimated than larger ones. Inferring environmental conditions solely from biometric measurements allows us to disentangle key interactions between the environment and the body.
+Used **R & Google Earth Engine (Javascript)** to develop **Random Forests** which estimated road traffic flow based on over 250 geospatial variables. We found regression variables can be used to accurately estimate on-road vehicle numbers at large spatial scales with high accuracy (r2 > 0.7).
 
 ![Bike Study](/assets/img/AtmosphericEnvironment-toc.jpg)
 
@@ -70,11 +71,11 @@ _We improved Europe-wide high spatial resolution air quality models using traffi
 
 ### 3. Europe-wide road traffic noise modelling
 
-Used **R & PostgreSQL** to estimate road traffic noise using a physically-based noise model (CNOSSOS-EU) at millions of points across Europe. I created an automated data pipeline for parallel computing on Dutch national supercomputer (Snellius) on Linux.
+Used **R & PostgreSQL** to estimate road traffic noise using a physically-based noise model (CNOSSOS-EU) at millions of points across Europe. I created an automated data pipeline for parallel computing on Dutch national supercomputer (Snellius).
 
 ![Noise map](/assets/img/noise-utrecht.jpg)
 
-_Noise level estimates (in dBA) in the city center of Utrecht_
+_Noise level estimates (in dBA) at the noisiest façade building points in the city center of Utrecht_
 
 
 
