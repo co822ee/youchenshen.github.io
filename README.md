@@ -51,7 +51,7 @@ EU-funded project—air quality modelling
 
 [Visualization dashboard - Monthly](https://youchenshenuu.users.earthengine.app/view/expanse-monthly-average-air-pollution-maps)
 
-Used **R & Google Earth Engine (Javascript)** to train three machine learning algorithms (**Random Forests**, **Geographically Weighted Regression**, **Supervised Linear Regression**) which estimated particulate matters, nitrogen dioxide, and ozone concentrations based on over 250 geospatial variables and 20k monitoring observations across Europe over 20 years. We found that using spatially-varying linear regression would give higher predictive accuracy than nonlinear regression and spatially-fixed linear regression. The resulting air quality maps allow us to disentangle key interactions between the environment and human health.
+Used **R & Google Earth Engine (Javascript)** to train three machine learning algorithms (**Random Forests**, **Geographically Weighted Regression**, **Supervised Linear Regression**) which estimated particulate matters, nitrogen dioxide, and ozone concentrations based on over 150 geospatial variables and 20k monitoring observations across Europe over 20 years. We found that using spatially-varying linear regression would give higher predictive accuracy than nonlinear regression and spatially-fixed linear regression. The resulting air quality maps allow us to disentangle key interactions between the environment and human health.
 
 ![Air quality maps](/assets/img/air-quality-maps.jpg)
 
@@ -63,7 +63,7 @@ _Europe-wide annual average ground-level NO2, O3, PM10, and PM2.5 concentrations
 
 [Github Repo](https://github.com/co822ee/eu_roadTraffic)
 
-Used **R & Google Earth Engine (Javascript)** to develop **Random Forests** which estimated road traffic flow based on over 250 geospatial variables. We found regression variables can be used to accurately estimate on-road vehicle numbers at large spatial scales with high accuracy (r2 > 0.7).
+Used **R & Google Earth Engine (Javascript)** to develop **Random Forests** which estimated road traffic flow based on over 150 geospatial variables. We found regression variables can be used to accurately estimate on-road vehicle numbers at large spatial scales with high accuracy (r2 > 0.7).
 
 ![Bike Study](/assets/img/AtmosphericEnvironment-toc.jpg)
 
